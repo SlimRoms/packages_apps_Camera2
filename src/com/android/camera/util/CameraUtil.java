@@ -213,6 +213,8 @@ public class CameraUtil {
         sImageFileNamer = new ImageFileNamer(
                 context.getString(R.string.image_file_name_format));
         sEnableZSL = context.getResources().getBoolean(R.bool.enableZSL);
+        sNoFocusModeChangeForTouch = context.getResources().getBoolean(
+                R.bool.useContinuosFocusForTouch);
         sCancelAutoFocusOnPreviewStopped =
                 context.getResources().getBoolean(R.bool.cancelAutoFocusOnPreviewStopped);
         sSamsungCamMode = context.getResources().getBoolean(R.bool.needsSamsungCamMode);
@@ -220,8 +222,6 @@ public class CameraUtil {
         sContinuousFocusNeedsAutoFocusCall =
             context.getResources().getBoolean(R.bool.continuousFocusNeedsAutoFocusCall);
         sSamsungHDRFormat = context.getResources().getBoolean(R.bool.needsSamsungHDRFormat);
-        sNoFocusModeChangeForTouch = context.getResources().getBoolean(
-                R.bool.useContinuosFocusForTouch);
     }
 
     public static int dpToPixel(int dp) {
