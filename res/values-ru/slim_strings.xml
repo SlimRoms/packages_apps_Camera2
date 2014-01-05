@@ -356,4 +356,15 @@
     <string name="pref_camera_flashmode_entry_redeye">Красные глаза</string>
     <string name="pref_camera_flashmode_label_redeye">КРАСНЫЕ ГЛАЗА</string>
 
+    <string name="pref_volume_key_mode_label">Кнопки громкости</string>
+    <string name="pref_volume_key_mode_shutter">Всегда съёмка</string>
+    <string name="pref_volume_key_mode_focus_shutter">Съёмка / Фокус</string>
+    <string name="pref_volume_key_mode_shutter_focus">Фокус / Съёмка</string>
+    <string name="pref_volume_key_mode_zoom">Зум</string>
+
+    <!-- Power key shutter -->
+    <string name="pref_power_key_shutter_label">Съёмка кнопкой питания</string>
+
+    <!-- More Settings screen, storage title -->
+    <string name="pref_camera_storage_title">Использовать внешнее хранилище</string>
 </resources>
