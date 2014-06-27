@@ -18,6 +18,7 @@
     xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="app_name" msgid="1175086483881127797">"Камера"</string>
     <string name="video_camera_label" msgid="1723708322021743770">"Видеокамера"</string>
+    <string name="select_image">Выбрать изображение</string>
     <string name="details_ms" msgid="6618163484662724641">"%1$02d:%2$02d"</string>
     <string name="details_hms" msgid="4842276230698703554">"%1$d:%2$02d:%3$02d"</string>
     <string name="set_image" msgid="3969690281401045698">"Установить картинку как"</string>
@@ -115,6 +116,7 @@
     <string name="pref_camcorder_settings_category" msgid="3553148484755353397">"Настройки видеокамеры"</string>
     <string name="pref_camera_picturesize_title" msgid="686045304547541815">"Размер изображения"</string>
     <string name="pref_camera_picturesize_entry_13mp" msgid="6728485576074234195">"13 Мпикс."</string>
+    <string name="pref_camera_picturesize_entry_12mp">"12 Мпикс."</string>
     <string name="pref_camera_picturesize_entry_8mp" msgid="7088352012301633667">"8 Мпикс."</string>
     <string name="pref_camera_picturesize_entry_5mp" msgid="1501745661448065284">"5 Мпикс."</string>
     <string name="pref_camera_picturesize_entry_4mp_wide" msgid="3338812763544573634">"4 Мпикс. (16:9)"</string>
