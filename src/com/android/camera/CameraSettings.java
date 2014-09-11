@@ -39,6 +39,7 @@ import com.android.camera.util.GcamHelper;
 import com.android.camera2.R;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 import java.util.Locale;
 import android.os.Build;
@@ -59,6 +60,7 @@ public class CameraSettings {
     public static final String KEY_CAMERA_JPEG_QUALITY = "pref_camera_jpegquality_key";
     public static final String KEY_VIDEO_JPEG_QUALITY = "pref_video_jpegquality_key";
     public static final String KEY_FOCUS_MODE = "pref_camera_focusmode_key";
+    public static final String KEY_FOCUS_TIME = "pref_camera_focustime_key";
     public static final String KEY_FLASH_MODE = "pref_camera_flashmode_key";
     public static final String KEY_VIDEOCAMERA_FLASH_MODE = "pref_camera_video_flashmode_key";
     public static final String KEY_WHITE_BALANCE = "pref_camera_whitebalance_key";
