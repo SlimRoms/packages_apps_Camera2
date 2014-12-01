@@ -18,6 +18,7 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <string name="pref_camera_powermode_title">Energiemodus</string>
   <string name="pref_camera_autoexposure_title">Auto-Belichtung auswählen</string>
+  <string name="pref_camera_autoexposure_entry_frameaverage">Bildrate</string>
   <string name="pref_camera_autoexposure_entry_centerweighted">Mittenbetont</string>
   <string name="pref_camera_autoexposure_entry_spotmetering">Spotmessung</string>
   <string name="pref_camera_videoencoder_title">Video-Encoder</string>
@@ -31,9 +32,11 @@
   <string name="pref_camera_skinToneEnhancement_entry_enable">Aktivieren</string>
   <string name="pref_camera_skinToneEnhancement_entry_disable">Deaktivieren</string>
   <string name="pref_camera_zsl_title">ZSL</string>
+  <string name="pref_camera_selectablezoneaf_title"> Wählbare Autofokus-Zone</string>
   <string name="pref_camera_selectablezoneaf_entry_auto">Auto</string>
   <string name="pref_camera_selectablezoneaf_entry_spotmetering">Spotmessung</string>
   <string name="pref_camera_selectablezoneaf_entry_centerweighted">Mittenbetont</string>
+  <string name="pref_camera_selectablezoneaf_entry_frameaverage">Bildrate</string>
   <string name="pref_camera_zsl_entry_off">Aus</string>
   <string name="pref_camera_zsl_entry_on">An</string>
   <string name="pref_camera_video_hdr_entry_off">Aus</string>
@@ -52,7 +55,13 @@
   <string name="error_app_unsupported_hdr_zsl">HDR ist im ZSL-Modus nicht unterstützt</string>
   <string name="pref_camera_ae_bracket_hdr_entry_on">An</string>
   <string name="pref_camera_ae_bracket_hdr_entry_off">Aus</string>
-  <string name="snapshot_lower_than_video">Die Auflösung des Schnappschusses ist geringer als die Videoauflösung. Bitte wählen Sie die gleiche oder eine höhere Auflösung wie die Videoauflösung.</string>
+  <string name="snapshot_lower_than_video">Auflösung des Schnappschusses ist geringer als Videoauflösung. Bitte wählen Sie eine Auflösung, die der aktuellen Videoauflösung entspricht oder höher ist. </string>
+  <string name="snapshotsize_low_powermode">Wir unterstützen keine Bildauflösung
+        im Low-Power-Modus. Schnappschuss in Video-Auflösung wird aufgenommen. Zur
+        Wahl der Bildauflösung schalten Sie bitte in den High-Power-Modus.
+    </string>
+  <string name="snapshot_qcif_and_d1">In dieser Auflösung werden nur Schnappschüsse in Videogröße unterstützt. </string>
+  <string name="pref_camera_hfr_title">Video (hohe Bildrate)</string>
   <string name="pref_camera_hfr_entry_off">Aus</string>
   <string name="pref_camera_denoise_title">Entrauschen (Wavelet)</string>
   <string name="pref_camera_denoise_entry_off">Aus</string>
@@ -65,6 +74,7 @@
   <string name="pref_camera_iso_entry_iso400">ISO 400</string>
   <string name="pref_camera_iso_entry_iso800">ISO 800</string>
   <string name="pref_camera_iso_entry_iso1600">ISO 1600</string>
+  <string name="pref_camera_antibanding_title">Anti-Banding</string>
   <string name="pref_camera_antibanding_entry_0">Aus</string>
   <string name="pref_camera_antibanding_entry_1">50 Hz</string>
   <string name="pref_camera_antibanding_entry_2">60 Hz</string>
@@ -77,6 +87,7 @@
   <string name="pref_coloreffect_entry_solarize">Solarisiert</string>
   <string name="pref_coloreffect_entry_posterize">Posterisiert</string>
   <string name="pref_coloreffect_entry_aqua">Aquarell</string>
+  <string name="pref_coloreffect_entry_emboss">Prägung</string>
   <string name="pref_coloreffect_entry_sketch">Zeichnung</string>
   <string name="pref_coloreffect_entry_neon">Neon</string>
   <string name="pref_coloreffect_entry_pastel">Pastell</string>
@@ -84,6 +95,7 @@
   <string name="pref_coloreffect_entry_redtint">Rotstich</string>
   <string name="pref_coloreffect_entry_bluetint">Blaustich</string>
   <string name="pref_coloreffect_entry_greentint">Grünstich</string>
+  <string name="pref_camera_touchafaec_title">Berührungs-AF/AEC</string>
   <string name="pref_camera_touchafaec_entry_off">Aus</string>
   <string name="pref_camera_touchafaec_entry_on">An</string>
   <string name="pref_camera_dis_title">DIS</string>
@@ -246,6 +258,7 @@
   <string name="pref_camera_picturesize_entry_wqvga">WQVGA</string>
   <string name="pref_camera_scenemode_entry_antimotionblur">Bewegungsunschärfe reduzieren</string>
   <string name="pref_camera_scenemode_entry_aqua">Aquarell</string>
+  <string name="pref_camera_scenemode_entry_ar">Erweiterte Realität</string>
   <string name="pref_camera_scenemode_entry_asd">Beste Aufnahme</string>
   <string name="pref_camera_scenemode_entry_baby">Baby</string>
   <string name="pref_camera_scenemode_entry_backgroundblur">Unscharfer Hintergrund</string>
@@ -257,7 +270,9 @@
   <string name="pref_camera_scenemode_entry_candlelight">Kerzenlicht</string>
   <string name="pref_camera_scenemode_entry_cine">Kino</string>
   <string name="pref_camera_scenemode_entry_closeup">Makro</string>
+  <string name="pref_camera_scenemode_entry_dark">Dunkel</string>
   <string name="pref_camera_scenemode_entry_dish">Speisen</string>
+  <string name="pref_camera_scenemode_entry_duskdawn">Dämmerung</string>
   <string name="pref_camera_scenemode_entry_document">Dokument</string>
   <string name="pref_camera_scenemode_entry_fallcolor">Herbstfarben</string>
   <string name="pref_camera_scenemode_entry_fireworks">Feuerwerk</string>
@@ -273,12 +288,36 @@
   <string name="pref_camera_scenemode_entry_pet">Haustiere</string>
   <string name="pref_camera_scenemode_entry_portrait">Porträt</string>
   <string name="pref_camera_scenemode_entry_snow">Schnee</string>
+  <string name="pref_camera_scenemode_entry_softskin">Schöne Haut</string>
   <string name="pref_camera_scenemode_entry_sports">Sport</string>
+  <string name="pref_camera_scenemode_entry_spotlight">Scheinwerferlicht</string>
   <string name="pref_camera_scenemode_entry_steadyphoto">Bildstabilisierung</string>
+  <string name="pref_camera_scenemode_entry_supernight">Dunkle Nacht</string>
   <string name="pref_camera_scenemode_entry_sweepstitch">Schwenkpanorama</string>
   <string name="pref_camera_scenemode_entry_text">Text</string>
   <string name="pref_camera_scenemode_entry_theatre">Theater</string>
+  <string name="pref_camera_focusmode_entry_continuouspicture">Serienbild</string>
+  <string name="pref_camera_focusmode_entry_facedetect">Gesichtserkennung</string>
+  <string name="pref_camera_focusmode_entry_facepriority">Gesichtspriorität</string>
+  <string name="pref_camera_focusmode_entry_fixed">Fixiert</string>
+  <string name="pref_camera_focusmode_entry_portrait">Porträt</string>
+  <string name="pref_camera_focusmode_entry_hyperfocal">Hyperfokal</string>
+  <string name="pref_coloreffect_entry_washed">Ausgewaschen</string>
+  <string name="pref_coloreffect_entry_vintage_warm">Retro (warm)</string>
+  <string name="pref_coloreffect_entry_vintage_cold">Retro (kalt)</string>
+  <string name="pref_coloreffect_entry_point_blue">Blau betonen</string>
+  <string name="pref_coloreffect_entry_point_green">Grün betonen</string>
+  <string name="pref_coloreffect_entry_point_red_yellow">Rot-gelb betonen</string>
+  <string name="pref_coloreffect_entry_cartoonize">Comic-Stil</string>
+  <string name="pref_smart_capture_label">SMARTE AUFNAHME</string>
+  <string name="pref_smart_capture_title">Smarte Aufnahme</string>
+  <string name="pref_true_view_label">Wahre Sicht</string>
+  <string name="pref_volume_key_mode_label">Lautstärketasten</string>
+  <string name="pref_volume_key_mode_shutter">Immer als Auslöser</string>
+  <string name="pref_volume_key_mode_focus_shutter">Auslöser / Fokus</string>
+  <string name="pref_volume_key_mode_shutter_focus">Fokus / Auslöser</string>
   <string name="pref_volume_key_mode_zoom">Zoom</string>
+  <string name="pref_power_key_shutter_label">Ein/Aus-Schalter als Auslöser</string>
   <string name="pref_camera_storage_title">Speicherplatz</string>
   <string name="pref_camera_focustime_title">Touch-Fokus-Dauer</string>
   <string name="pref_camera_focustime_summary">Fokussierdauer festlegen</string>
