@@ -55,6 +55,7 @@
   <string name="error_app_unsupported_hdr_zsl">HDR ist im ZSL-Modus nicht unterstützt</string>
   <string name="pref_camera_ae_bracket_hdr_entry_on">An</string>
   <string name="pref_camera_ae_bracket_hdr_entry_off">Aus</string>
+  <string name="err_app_unsupport_ae_bracket_code">aktuell unterstützt keine App AEB</string>
   <string name="snapshot_lower_than_video">Auflösung des Schnappschusses ist geringer als Videoauflösung. Bitte wählen Sie eine Auflösung, die der aktuellen Videoauflösung entspricht oder höher ist. </string>
   <string name="snapshotsize_low_powermode">Wir unterstützen keine Bildauflösung
         im Low-Power-Modus. Schnappschuss in Video-Auflösung wird aufgenommen. Zur
@@ -103,6 +104,7 @@
   <string name="pref_camera_dis_entry_off">Aus</string>
   <string name="pref_camera_dis_entry_on">An</string>
   <string name="pref_camera_facerc_title">Gesichtserkennung</string>
+  <string name="pref_camera_facerc_default">aus</string>
   <string name="pref_camera_facerc_entry_off">Aus</string>
   <string name="pref_camera_facerc_entry_on">An</string>
   <string name="pref_camera_sharpness_entry_level0">Stufe 0</string>
@@ -277,6 +279,7 @@
   <string name="pref_camera_scenemode_entry_fallcolor">Herbstfarben</string>
   <string name="pref_camera_scenemode_entry_fireworks">Feuerwerk</string>
   <string name="pref_camera_scenemode_entry_flowers">Blumen</string>
+  <string name="pref_camera_scenemode_entry_handheldtwilight">Dämmerung (ohne Stativ)</string>
   <string name="pref_camera_scenemode_entry_highsensitivity">Hohe Empfindlichkeit</string>
   <string name="pref_camera_scenemode_entry_indoor">Innenraum</string>
   <string name="pref_camera_scenemode_entry_landscape">Landschaft</string>
@@ -296,7 +299,9 @@
   <string name="pref_camera_scenemode_entry_sweepstitch">Schwenkpanorama</string>
   <string name="pref_camera_scenemode_entry_text">Text</string>
   <string name="pref_camera_scenemode_entry_theatre">Theater</string>
+  <string name="pref_camera_scenemode_entry_whiteboard">Whiteboard</string>
   <string name="pref_camera_focusmode_entry_continuouspicture">Serienbild</string>
+  <string name="pref_camera_focusmode_entry_extended">Erweitert</string>
   <string name="pref_camera_focusmode_entry_facedetect">Gesichtserkennung</string>
   <string name="pref_camera_focusmode_entry_facepriority">Gesichtspriorität</string>
   <string name="pref_camera_focusmode_entry_fixed">Fixiert</string>
@@ -311,6 +316,8 @@
   <string name="pref_coloreffect_entry_cartoonize">Comic-Stil</string>
   <string name="pref_smart_capture_label">SMARTE AUFNAHME</string>
   <string name="pref_smart_capture_title">Smarte Aufnahme</string>
+  <string name="pref_camera_flashmode_entry_redeye">Rote Augen</string>
+  <string name="pref_camera_flashmode_label_redeye">ROTE AUGEN</string>
   <string name="pref_true_view_label">Wahre Sicht</string>
   <string name="pref_volume_key_mode_label">Lautstärketasten</string>
   <string name="pref_volume_key_mode_shutter">Immer als Auslöser</string>
