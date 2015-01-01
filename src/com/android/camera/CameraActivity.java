@@ -509,6 +509,10 @@ public class CameraActivity extends QuickActivity
                                  hardware.isFlashSupported());
         }
 
+        mSettingsManager.set(SettingsManager.SCOPE_GLOBAL,
+                             Keys.KEY_VIDEOCAMERA_SAMSUNG4K_MODE,
+                             isSamsung4k());
+
         if (!mModuleManager.getModuleAgent(mCurrentModeIndex).requestAppForCamera()) {
             // We shouldn't be here. Just close the camera and leave.
             mCameraController.closeCamera(false);
@@ -2553,6 +2557,11 @@ public class CameraActivity extends QuickActivity
     public boolean isRecording() {
         return (mCurrentModule instanceof VideoModule) ?
                 ((VideoModule) mCurrentModule).isRecording() : false;
+    }
+
+    public boolean isSamsung4k() {
+        return (mCurrentModule instanceof VideoModule) ?
+                ((VideoModule) mCurrentModule).isSamsung4k() : false;
     }
 
     public CameraAgent.CameraOpenCallback getCameraOpenErrorCallback() {
