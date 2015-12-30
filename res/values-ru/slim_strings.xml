@@ -58,7 +58,7 @@
   <string name="err_app_unsupport_ae_bracket_code">AE Bracket не поддерживается приложениями</string>
   <string name="snapshot_lower_than_video">Размер эскиза видео меньше, чем размер видео, установлен размер видео. Пожалуйста, выберите разрешение больше или равное текущему разрешению видео. </string>
   <string name="snapshotsize_low_powermode">Изменение разрешения эскиза видео не поддерживается в режиме пониженного энергопотребления. Будет сделан эскиз с разрешением видео. Пожалуйста, выберите режим обычного энергопотребления для изменения размера эскиза.</string>
-  <string name="snapshot_qcif_and_d1">Для этого разрешения поддерживается только размер эскиза, ракный оригинальному размеру видео.</string>
+  <string name="snapshot_qcif_and_d1">Для этого разрешения поддерживается только размер эскиза, равный оригинальному размеру видео.</string>
   <string name="pref_camera_hfr_title">Видео с высокой скоростью кадров</string>
   <string name="pref_camera_hfr_entry_off">Выкл</string>
   <string name="pref_camera_denoise_title">Режим вейвлет-удаления шума</string>
@@ -261,8 +261,8 @@
   <string name="pref_camera_scenemode_entry_asd">Лучший снимок</string>
   <string name="pref_camera_scenemode_entry_baby">Реденок</string>
   <string name="pref_camera_scenemode_entry_backgroundblur">Размытие фона</string>
-  <string name="pref_camera_scenemode_entry_backlight">Фоновое свечение</string>
-  <string name="pref_camera_scenemode_entry_backlightportrait">Портрет с фоновым свечением</string>
+  <string name="pref_camera_scenemode_entry_backlight">Фоновый свет</string>
+  <string name="pref_camera_scenemode_entry_backlightportrait">Портрет с фоновым светом</string>
   <string name="pref_camera_scenemode_entry_barcode">Штрих-код</string>
   <string name="pref_camera_scenemode_entry_beach">Пляж</string>
   <string name="pref_camera_scenemode_entry_beauty">Красота</string>
@@ -274,7 +274,7 @@
   <string name="pref_camera_scenemode_entry_duskdawn">Закат/восход</string>
   <string name="pref_camera_scenemode_entry_document">Документ</string>
   <string name="pref_camera_scenemode_entry_fallcolor">Усиление цвета</string>
-  <string name="pref_camera_scenemode_entry_fireworks">Фейерверки</string>
+  <string name="pref_camera_scenemode_entry_fireworks">Фейерверк</string>
   <string name="pref_camera_scenemode_entry_flowers">Цветы</string>
   <string name="pref_camera_scenemode_entry_handheldtwilight">Ручный сумерки</string>
   <string name="pref_camera_scenemode_entry_highsensitivity">Высокая чувствительность</string>
